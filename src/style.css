@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-950;
+}
+#EntryBody {
+    @apply w-8/12 m-auto;
+}
+header {
+    @apply relative mb-6 mt-2;
+}
+header ul {
+    @apply flex flex-row relative justify-center;
+}
+header ul a {
+    @apply text-white font-medium mr-3;
+}
+#home .part_One {
+    @apply w-full flex flex-row;
+}
+#home .part_One .Part1 {
+    @apply w-4/6;
+}
+#home .part_One .Part1 img {
+    @apply w-auto;
+}
+#home .part_One .Part2 {
+    @apply w-4/6 align-bottom h-44 relative mt-10;
+}
+#home .part_One .Part2 label {
+    @apply text-red-500 font-medium absolute bottom-32;
+}
+#home .part_One .Part2 h1 {
+    @apply text-white font-bold text-3xl absolute bottom-24;
+}
+#home .part_One .Part2 p {
+    @apply text-white text-sm absolute bottom-16;
+}
+#home .part_One .Part2 button {
+    @apply text-white font-medium border-red-500 border-solid border-2 p-2
+    bg-red-500 rounded-md w-40 absolute bottom-0 left-0;
+}
+#home .carree {
+    @apply w-3/6 bg-website_bg-500 h-96 absolute top-80 left-0;
+}
